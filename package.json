@@ -6,7 +6,8 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start:prod": "node server.js",
+    "start":"ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
